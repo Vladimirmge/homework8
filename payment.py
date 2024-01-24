@@ -4,8 +4,7 @@ app = Flask(__name__)
 
 def cal (a, b):
     c = a + b
-    answe = (c * 3600)/100
-    return answe
+    return c
 
 @app.route("/")
 def index():

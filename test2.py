@@ -3,7 +3,7 @@ from payment import cal
 def test2(a,b):
     c = cal(a,b)
 
-    test_c = (c * 3600)/100
+    test_c = a + b
 
     assert c == test_c
 
